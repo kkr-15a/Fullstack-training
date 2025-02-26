@@ -103,20 +103,6 @@
 //    }
 // };
 
-//2623. Memoize
-// function memoize(fn) {
-//     const cache = {};
-//     return function(...args) {
-//       const key = String(args);
-//       if (key in cache) {
-//         return cache[key];
-//       }
-//       const result = fn(...args);
-//       cache[key] = result;
-//       return result;
-//     }
-// }
-
 //2723. Add Two Promises
 // var addTwoPromises = async function(promise1, promise2) {
 //     return await promise1 + await promise2;
